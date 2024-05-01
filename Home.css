@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/* NAV bar bar Tag  */
+header {
+    background-color: #333;
+    color: #f1ebeb;
+    padding: 20px;
+    text-align: center;
+}
+/* NAV bar Tag ul */
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+/* NAV bar Tag li */
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+/* NAV bar Tag a */
+nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Main part */
+#main-content {
+    text-align: center;
+    margin-top: 50px;
+}
+/* Photo part */
+.photos {
+    display: flex;
+    justify-content: center;
+    border-radius: 40px;
+}
+/* Photo edit */
+.photos img {
+    width: 100%;
+    margin: 0 10px;
+    margin-top: -50px;
+}
+/* intro part */
+.intro{
+    margin: center;
+    padding: 50px;
+    font-family: 'Roboto' , sans-serif;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 15px 0;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.footer_actor ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer_actor ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.footer_actor ul li:last-child {
+    margin-right: 0;
+}
+
+.footer_actor ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.footer_actor ul li a:hover {
+    color: #ccc;
+}
+
+.footerBottom {
+    margin-top: 20px;
+}
+
+.designer {
+    font-style: italic;
+}
+  
